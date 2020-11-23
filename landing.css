@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #21212e;
+  font-family: "Cuprum", "Darker Grotesque";
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+.left {
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 100%;
+  flex-basis: 20%;
+  background-color: black;
+  margin-right: 15%;
+}
+
+.left ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.513);
+  padding: 10px 0;
+}
+.logo {
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+  padding: 10px 0;
+  flex-basis: 100px;
+}
+.music {
+  height: 80vh;
+  display: flex;
+  color: white;
+}
+
+.music--left p {
+  width: 90%;
+  text-align: left;
+}
+.music--left img {
+  width: 200px;
+}
+.music--left h1 {
+  letter-spacing: 1px;
+  font-size: 40px;
+  width: 40%;
+  text-align: left;
+}
+.music--left-cont {
+  width: 50vw;
+
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-left: 20px;
+  height: 100%;
+}
+.music--right {
+  width: 50vw;
+}
+.img1 {
+  height: 60vh;
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  background-color: #fff;
+  padding: 8px 2px 8px 8px;
+  border-radius: 20px;
+}
+
+.img1 img {
+  height: 100%;
+  z-index: 1;
+}
+.img2 {
+  height: 60vh;
+  position: absolute;
+  left: 20%;
+  transform: scale(1.1) translateX(50px);
+  top: 10%;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  padding: 8px 2px 8px 8px;
+  align-items: center;
+  z-index: 2;
+}
+.img2 img {
+  height: 91%;
+  /* width: 90%; */
+  transform: scaleY(1.1);
+  
+  z-index: 2;
+}
+.img3 {
+    height: 60vh;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    border-radius: 20px;
+    background-color: white;
+    transform: translateX(110px);
+    padding: 8px 2px 8px 8px;
+}
+.img3 img {
+
+  
+  height: 100%;
+}
+.img4 {
+    height: 60vh;
+    position: absolute;
+    left: 20%;
+    transform: scale(1.1) translateX(60px);
+    top: 10%;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    padding: 8px 2px 8px 8px;
+  }
+  .img4 img {
+    height: 91%;
+    transform: scaleY(1.1); 
+    z-index: 2;
+  }
+  .img5 {
+    height: 60vh;
+    position: absolute;
+    left: 20%;
+    transform: scale(1.1) translateX(50px) rotateZ(15deg);
+    top: 10%;
+    background-color: rgb(143, 2, 96);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    width: 170px;
+  }
+  .img6 {
+    height: 60vh;
+    position: absolute;
+    left: 20%;
+    transform: scale(1.1) translateX(50px) rotateZ(-15deg);
+    top: 10%;
+    background-color: rgb(1, 127, 231);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    width: 170px;
+  }
