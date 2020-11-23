@@ -67,7 +67,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  padding-left: 20px;
+  padding-left: 30px;
   height: 100%;
 }
 .music--right {
@@ -166,3 +166,46 @@ li {
     z-index: 0;
     width: 170px;
   }
+  .music--left-cont2 {
+      width: 100vw;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 30px;
+    height: 100%;
+  }
+  .slider {
+display: flex;
+flex-direction: row;
+
+overflow-x: scroll;
+  }
+  .imgs {
+   
+    
+    top: 10%;
+    background-color: black;
+    border-radius: 20px;
+margin-right: 25px;
+    padding: 8px 1px 8px 8px;
+
+  }
+  .imgs img {
+    height: 244px;
+    width: 118px;
+    margin-right: 10px;
+  
+ 
+ 
+  }
+  .slider::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.slider {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
