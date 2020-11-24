@@ -34,11 +34,22 @@ li {
   padding: 10px 0;
 }
 .logo {
-  background-color: #fff;
-  height: 100%;
+min-height:35px ;
+  color: white;
+  justify-content: center;
+  min-width: 30px;
   display: flex;
-  padding: 10px 0;
-  flex-basis: 100px;
+flex-basis: 100px;
+flex-direction: column;
+padding-top: 10px;
+}
+.logo span {
+  margin-left: 30px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: left;
 }
 .music {
   height: 80vh;
@@ -263,7 +274,7 @@ li {
   justify-content: space-around;
   align-items: center;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
-  margin-right: 30px;
+  margin: 0 10px;
 }
 .rev p {
   text-align: center;
@@ -342,4 +353,118 @@ li {
   width: 25px;
   height: auto;
   margin-right:3px;
+}
+@media only screen and (max-width: 800px) {
+   .left {
+     min-width: 50%;
+     margin-right: 5%;
+   }
+   .music--left {
+     width: 100vw;
+   }
+   .music--left-cont {
+     width: 100vw;
+     margin-top: 15px;
+   }
+   .music {
+     flex-direction: column;
+     height: auto;
+     margin-top: 15px;
+   }
+   .music--right {
+     height: 60vh;
+     width: 100vw;
+   }
+   .music--right2 {
+    height: 60vh;
+    width: 100vw;
+   }
+   .button {
+     width: 40%;
+     padding:10px;
+     margin-bottom: 10px;
+   }
+   .floater {
+     width: 80%;
+     position: unset;
+     margin: 20PX auto;
+     min-height: 200px;
+
+   }
+   .floater2 {
+    transform: translateY(0) translateX(0);
+}
+.floater3 {
+  transform: translateY(0);
+}
+.music--right2 {
+  height: auto;
+  position: unset;
+} 
+.music--left-cont2 {
+  margin-bottom: 15px;
+}
+.newsletter-cont {
+  
+  flex-direction: column;
+  justify-content: space-between;
+  /* line-height: 30px; */
+
+}
+.newsletter-cont h3 {
+  width: 100%;
+  margin: 0 auto;
+}
+.newsletter input {
+margin: 10px 0;
+  width: 90%;
+
+}
+.music--left img {
+  width: 150px;
+}
+.button2 {
+  width: 50%;
+}
+.rev {
+  height: 233px;
+}
+.row {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact {
+  width: 100vw;
+}
+.contact div{
+  text-align: center!important;
+  margin: 0 auto;
+}
+.footer-left {
+  width: 90%;
+  margin: 15px 0;
+  text-align: center;
+}
+.social {
+  width: 100vw;
+  margin: 15px 0;
+}
+}
+@media only screen and (max-width: 500px) {
+  .left {
+    min-width: 60%;
+    margin-right: 2%;
+  }
+  nav {
+    justify-content: space-around ;
+  }
+  .music--left-cont h1 {
+    width: 90%;
+  }
+  .music--right--cont {
+    margin-left: -10vw;
+  }
+  .music--right {
+    height: 67vh;
+  }
 }
