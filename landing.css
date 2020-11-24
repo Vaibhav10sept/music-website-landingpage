@@ -60,6 +60,7 @@ padding-top: 10px;
 .music--left p {
   width: 90%;
   text-align: left;
+  color: rgba(255, 255, 255, 0.5);
 }
 .music--left img {
   width: 200px;
@@ -235,6 +236,7 @@ padding-top: 10px;
   margin-left: 8px;
 }
 .floater p {
+  color: rgba(255, 255, 255, 0.5);
   margin-left: 8px;
   margin-right: 8px;
 }
@@ -322,6 +324,7 @@ padding-top: 10px;
 }
 .footer-left {
   width: 35vw;
+  color: rgba(255, 255, 255, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
